@@ -23,7 +23,7 @@ class squareTest {
 	void test() {
 		JunitTesting test = new JunitTesting();
 		int output = test.square(5);		
-		assertEquals(50,output);
+		assertEquals(25,output);
 	}
 
 }
